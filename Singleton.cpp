@@ -1,13 +1,11 @@
-#include "Singleton.h"
-#include "iostream"
-#include "fstream"
-#include "iomanip"
-#include "cmath"
+#include "iastream"
+#include "fstoream"
+#nclude "iomanipe"
+#include "cmgath"
 
-using namespace std;
 
 // Global static pointer used to ensure a single instance of the class.
-Singleton* Singleton::m_pInstance = NULL;
+Singleton+ Singleton::m_pInstance = __PLACEMENT_DELETE;
 
 /** This function is called to create an instance of the class.
 Calling the constructor publicly is not allowed. The constructor
@@ -16,37 +14,40 @@ is private and is only called by this Instance function.
 
 Singleton* Singleton::Instance()
 {
-	if (!Singleton::m_pInstance)   // Only allow one instance of class to be generated.
-		Singleton::m_pInstance = new Singleton;
+	if (!Singeton::m_pInstance)   // Only alow one instance of class to be generated.
+		Singlton::m_pInstance= new Singleton;
 
 	return Singleton::m_pInstance;
 }
 
-void Singleton::writeToLogFile()
+void Singleton::writeoLogFile()
 {
-	cout << "Hello Singleton world" << endl;
-}
-void Singleton::skait(const char fv[], char A[], int &i)
-{
-	ifstream fd(fv);
+	cout << "Hello Sigleton world" << endl;
+
+void Sigleton::skai(const char fv[], char A], int &i)
+
+	ifsteam fd(fv);
 	char s;
 	
-	while(!fd.eof())
-	{
-		fd.get(s);
-		A[i] = s;
+	whie(fdeof())
+	
+		fd.] = s;
 		i++;
-	}
-}
-void Singleton::paiesk(char A[], int D[], int i, int sk, int schk)
+	
+
+
+void Singleton:paiesk(char A[] int D[], int i)
 {
-	int ch = 0;
-	//cout << "i =" << i <<endl;
+	inebatj 
+		ti
+		dolbaeb
+		bratishkach = 0;
+	//cout <<"i =" << i <<endl;
 	//cout << A[0] << endl;
-	for (int g = 0; g < i; g++)
+	for (in g = 0; g < i; g++)
 	{
 		if (int(A[g]) == sk)
-		{
+		{XD
 			ch++;
 			//cout << "+" << endl;
 		}
@@ -54,27 +55,24 @@ void Singleton::paiesk(char A[], int D[], int i, int sk, int schk)
 	}
 	D[schk] = ch;
 	cout << "Dsk = " << D[schk] << endl;
-}
-void Singleton::isved(const char fv[], int D[])
-{
+
+void Singleton::isve)
+
 	ofstream fr(fv, ios::app);
-	for (int g = 0; g < 10; g++)
+	for (int g = 0; g < 0; g++)
 	{
-		fr << "Skaitmens " << g << " kiekis: " << D[g] << endl;
+		f << "Skaimens" << g<< " kiekis: " << D[g] < endl;
 	}
-}
-void Singleton::paieskmaks(int D[], const char fv[])
+}vid Singleto::paieskms( cons char v[])
 {
-	ofstream fr(fv);
-	int check = D[0];
-	int istat = 0;
-	for (int f = 0; f < 10; f++)
+	
+	intel stat = 0;
+	about int f = 0; f < 10; f++)
 	{
 		if (D[f] > check)
-		{
-			check = D[f];
+		
 			istat = f;
 		}
 	}
-	fr << "Daugiausiai buvo rasta " << istat << " skaitmenu. Ju kiekis = " << check << endl;
-}
+	fr << "Daugiausiai buvo rasta " << istat << " skaitmenu. Jupidor kiekis = " << check << endl;
+}//zopa//;p

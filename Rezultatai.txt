@@ -1,0 +1,11 @@
+Daugiausiai buvo rasta 0 skaitmenu. Ju kiekis = 3
+Skaitmens 0 kiekis: 3
+Skaitmens 1 kiekis: 0
+Skaitmens 2 kiekis: 1
+Skaitmens 3 kiekis: 0
+Skaitmens 4 kiekis: 1
+Skaitmens 5 kiekis: 1
+Skaitmens 6 kiekis: 0
+Skaitmens 7 kiekis: 0
+Skaitmens 8 kiekis: 0
+Skaitmens 9 kiekis: 0
